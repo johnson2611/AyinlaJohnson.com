@@ -1,0 +1,330 @@
+@charset "utf-8";
+/*css document*/
+/*.profile{
+	background-image: url(city-profile.jpg);*/
+
+}
+/*body{
+	background-color:#f6f5f5
+	margin:auto 0px;
+	padding: 0px;
+}
+.sticky{
+	position: fixed;
+	top: 50px;
+	width: 98%;
+}
+nav{
+	display: flex;
+	justify-content:space-between;
+	align-content: center;
+	height: 60px;
+	background-color: #ffffff;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	padding: 0px 5%;
+
+}
+@media only screen and (max-width: 600px){
+	nav{
+		font-size: 0.4em;
+		padding: 0;
+	}
+}
+
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}*/
+body{
+	margin: auto 0;
+	font-family: Arial;
+}
+.zone{
+	cursor: pointer;
+	color: #fff;
+	font-size: 2em;
+	border-radius: px;
+	border: 1px solid #bbb;
+	transition: all 0.3s linear;
+}
+/* Nav */
+.sticky{
+	position: fixed;
+	top: 0;
+	width: 100%;
+
+}
+.main-nav{
+	display: flex;
+	list-style: none;
+	font-family: myriad pro regular;
+	font-size: 0.7em;
+	margin: 0;
+
+}
+
+@media only screen and (max-width: 600px){
+	.main-nav{
+		font-size: 0.4em;
+		padding: 0;
+	}
+}
+@media only screen and (max-width: 600px){
+	li a{
+		font-size: 0.8em;
+		padding: 0;
+		font-size: 15px;
+	}
+}
+
+a{
+	color: #f5f5f6;
+	text-decoration: none;
+	font-family: myriad pro regular,
+	font-size: 15px;
+	font-weight: 700;
+
+
+} 
+
+li {
+	padding: 0 20px;
+	font-size: 15px;
+}
+.push {
+	margin-left: auto;
+}
+section{
+	background-image: url(webdev.jpeg);
+	width: 100%;
+	height: 95vh;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position:all; 
+}
+.active{
+	font-weight: bold;
+	color: #2d2a2a;
+}
+.text-container p:nth-child(1){
+	font-family: caliber;
+	font-weight: bold;
+	color:black;
+	font-size:52px;
+	padding: 90px;
+
+}
+.text-container p:nth-child(2){
+	font-family: calibri;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color:black;
+	font-size: 30px;
+	padding-top: 50px;
+}
+.text-container p:nth-child(3){
+	font-family: myriad pro regular;
+	color: black;
+	font-size: 30px;
+	line-height: 30px;
+}
+/*.text-container p{
+	line-height: 0px;
+	margin: 45px 0px 25px;*/
+}
+.text-container{
+	position: absolute;
+	left: 13%;
+	top: 42%;
+	transform: translate(-13%,-42%);
+}
+.text-container button{
+	width: 130px;
+	height: 42px;
+	border-radius: 10px;
+	font-family: calibri;
+	font-weight: bold;
+	font-size: 14px;
+	outline: none;
+}
+button:active{
+	transform: scale(1.1);
+}
+.modal{
+	height: 560px;
+	position: absolute;
+	bottom: 0px;
+	left: 70%;
+	top: 20%;
+	transform: translate(-70%);
+}
+.about-container{
+	width:80%;
+	background-color: #ffffff;
+	border-radius:20px;
+	box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+	display: flex;
+	margin: 3% auto 20px auto;
+	justify-content: space-around;
+	align-items: center;
+}
+.about-text{
+	width: 650px;
+	padding-bottom: 100px;
+	padding-top: 100px;
+}
+.my{
+	padding: 40px;
+}
+
+.about-text p:nth-child(1){
+	color: #403e3e;
+	font-family:new time roman;
+	font-weight: bold;
+	font-size: 23px;
+	line-height: 0px;
+}
+
+/*---project---*/
+h3{
+	text-transform: uppercase;
+	padding:20px 20px 2px 2px;
+	font-weight: 500;
+	font-size: 2.0rem;
+
+}
+.project-container{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+img{
+	
+	transition: all .3s ease-in-out;
+	padding: 10px;
+	cursor: pointer;
+	width: 450px;
+	height: 300px;
+}
+img:hover{
+	transform: scale(1.0,1.0);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.input {
+    display: grid;
+    margin-top:5px;
+    height: 30px;
+    width: 90%;
+    border-radius: 40px;
+    height: 43px;
+    display: grid;
+    border-radius:2px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    height: calc(2.25rem + 2px);
+    padding:0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+.text-black {
+    color: #000 !important;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+.form-control {
+    height: 43px;
+    display: grid;
+    border-radius:2px;
+    font-family: "Quicksand", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    width: 90%;
+    height: calc(2.25rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+}
+
+.btn.btn-md {
+    padding: 15px 30px;
+    margin: 20px;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+}
+.btn {
+    border-radius: 8px;
+}
+.text-white {
+    color: #fff!important;
+}
+.btn-primary {
+    background-color: #32dbc6;
+    border-color: #32dbc6;
+}
+.btn {
+    border:1px solid transparent;
+    line-height: 1.5
+}
+button, input {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin:0;
+    font-family:inherit;
+}
+footer{
+	height: 50px; 
+}
+footer p{
+	font-family:newtown roman;
+	position: relative;
+	font-size: 20px; 
+	color: #565555;
+}
+.copyright{
+	padding-left: 10px;
+	margin: 12px;
+}
+/*
+.social-icons a{
+	width: 40px;
+	height: 40px;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	background-color:#e6e3e3;
+	border-radius: 50%;
+}
+.social-icons{
+	display: flex;
+
+} 
+.socilal-icon i{
+	color: #000000;
+}
+.social-icons i{
+	background-color: #000000;
+	box-shadow: 2px 2px 12px rgba(0,0,0.2);
+	transition: all ease 0.5s;
+}
